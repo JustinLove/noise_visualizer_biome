@@ -7,6 +7,7 @@
   "description": "Tool for biome modders to edit the files and look at noise patterns",
   "display_name": "Noise Visualizer Biome",
   "forum": null,
+  "icon": "http://wondible.com/pa/icons/noise_visualizer_biome.png",
   "identifier": "com.wondible.pa.noise_visualizer_biome.client",
   "scenes": {
     "system_editor": [
