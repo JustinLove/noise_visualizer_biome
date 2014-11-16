@@ -66,6 +66,7 @@ module.exports = function(grunt) {
           spec.name = 'noise_visualizer'
           spec.biomes[0].spec = "/pa/terrain/noise_visualizer/noise_visualizer.json"
           delete spec.water
+          delete base_biome
           spec.lighting.sun.diffuse = [0.1, 0.1, 0.1]
           spec.lighting.ambient.day_sky = [0.9, 0.9, 0.9]
           spec.lighting.ambient.night_sky = [0.8, 0.8, 0.8]
@@ -116,7 +117,9 @@ module.exports = function(grunt) {
           ]
           var decals = blueGreenPink20
 
-          for (var i = 2;i <= decals.length;i++) {
+          spec.layers.shift()
+          spec.layers[0].note = "0 - edit me"
+          for (var i = 1;i <= decals.length;i++) {
             spec.layers[i] = {
               "note": i.toString(),
               "inherit_noise": true
@@ -124,7 +127,7 @@ module.exports = function(grunt) {
           }
           spec.decals = decals.map(function(d, i) {
             return {
-              "layer": i+1,
+              "layer": i,
               "bias": 100,
               "noise_range": [
                 i/decals.length,
