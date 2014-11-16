@@ -1,12 +1,12 @@
 {
   "author": "wondible",
   "build": "74525",
-  "category": ["biome", "modding"],
+  "category": ["biome", "modding", "system_editor"],
   "context": "client",
   "date": "2014/11/16",
   "description": "Tool for biome modders to edit the files and look at noise patterns",
   "display_name": "Noise Visualizer Biome",
-  "forum": null,
+  "forum": "https://forums.uberent.com/threads/rel-noise-visualizer-biome.66012/",
   "icon": "http://wondible.com/pa/icons/noise_visualizer_biome.png",
   "identifier": "com.wondible.pa.noise_visualizer_biome.client",
   "scenes": {
@@ -15,5 +15,5 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "0.1.0"
+  "version": "1.0.0"
 }
