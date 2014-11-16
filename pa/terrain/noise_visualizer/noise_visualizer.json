@@ -1,0 +1,611 @@
+{
+  "name": "noise_visualizer",
+  "color": [
+    0.5,
+    0.5,
+    0.5,
+    1
+  ],
+  "base_texture": "/pa/terrain/sandbox/textures/base/sandbox_tile_diffuse.papa",
+  "normal_texture": "/pa/terrain/sandbox/textures/base/sandbox_tile_normal.papa",
+  "material_texture": "/pa/terrain/sandbox/textures/base/sandbox_tile_material.papa",
+  "layers": [
+    {
+      "note": "0",
+      "disable": true,
+      "noise": {
+        "scale": 1.5,
+        "zoom": 1,
+        "type": "simplex"
+      }
+    },
+    {
+      "note": "1",
+      "noise": {
+        "scale": 1,
+        "zoom": 1,
+        "type": "simplex"
+      }
+    },
+    {
+      "note": "2",
+      "inherit_noise": true
+    },
+    {
+      "note": "3",
+      "inherit_noise": true
+    },
+    {
+      "note": "4",
+      "inherit_noise": true
+    },
+    {
+      "note": "5",
+      "inherit_noise": true
+    },
+    {
+      "note": "6",
+      "inherit_noise": true
+    },
+    {
+      "note": "7",
+      "inherit_noise": true
+    },
+    {
+      "note": "8",
+      "inherit_noise": true
+    },
+    {
+      "note": "9",
+      "inherit_noise": true
+    },
+    {
+      "note": "10",
+      "inherit_noise": true
+    },
+    {
+      "note": "11",
+      "inherit_noise": true
+    },
+    {
+      "note": "12",
+      "inherit_noise": true
+    },
+    {
+      "note": "13",
+      "inherit_noise": true
+    },
+    {
+      "note": "14",
+      "inherit_noise": true
+    },
+    {
+      "note": "15",
+      "inherit_noise": true
+    },
+    {
+      "note": "16",
+      "inherit_noise": true
+    },
+    {
+      "note": "17",
+      "inherit_noise": true
+    },
+    {
+      "note": "18",
+      "inherit_noise": true
+    },
+    {
+      "note": "19",
+      "inherit_noise": true
+    },
+    {
+      "note": "20",
+      "inherit_noise": true
+    }
+  ],
+  "brushes": [],
+  "features": [],
+  "decals": [
+    {
+      "layer": 1,
+      "bias": 100,
+      "noise_range": [
+        0,
+        0.05
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/lava/decals/lava_decal_02.json"
+    },
+    {
+      "layer": 2,
+      "bias": 100,
+      "noise_range": [
+        0.05,
+        0.1
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/ice/decals/ice_decal_water_03.json"
+    },
+    {
+      "layer": 3,
+      "bias": 100,
+      "noise_range": [
+        0.1,
+        0.15
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/grass/decals/grass_decal_water_02.json"
+    },
+    {
+      "layer": 4,
+      "bias": 100,
+      "noise_range": [
+        0.15,
+        0.2
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/sand/decals/sand_decal_water_03.json"
+    },
+    {
+      "layer": 5,
+      "bias": 100,
+      "noise_range": [
+        0.2,
+        0.25
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/ice/decals/ice_decal_water_02.json"
+    },
+    {
+      "layer": 6,
+      "bias": 100,
+      "noise_range": [
+        0.25,
+        0.3
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/ice/decals/ice_decal_water_01.json"
+    },
+    {
+      "layer": 7,
+      "bias": 100,
+      "noise_range": [
+        0.3,
+        0.35
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/sand/decals/sand_decal_water_02.json"
+    },
+    {
+      "layer": 8,
+      "bias": 100,
+      "noise_range": [
+        0.35,
+        0.4
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/grass/decals/grass_decal_water_01.json"
+    },
+    {
+      "layer": 9,
+      "bias": 100,
+      "noise_range": [
+        0.4,
+        0.45
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/grass/decals/grass_decal_01.json"
+    },
+    {
+      "layer": 10,
+      "bias": 100,
+      "noise_range": [
+        0.45,
+        0.5
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/grass/decals/grass_decal_03.json"
+    },
+    {
+      "layer": 11,
+      "bias": 100,
+      "noise_range": [
+        0.5,
+        0.55
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/jungle/decals/jungle_decal_01.json"
+    },
+    {
+      "layer": 12,
+      "bias": 100,
+      "noise_range": [
+        0.55,
+        0.6
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/jungle/decals/jungle_decal_03.json"
+    },
+    {
+      "layer": 13,
+      "bias": 100,
+      "noise_range": [
+        0.6,
+        0.65
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/desert/decals/desert_rock_decal_02.json"
+    },
+    {
+      "layer": 14,
+      "bias": 100,
+      "noise_range": [
+        0.65,
+        0.7
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/desert/decals/desert_cracks_decal_01.json"
+    },
+    {
+      "layer": 15,
+      "bias": 100,
+      "noise_range": [
+        0.7,
+        0.75
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/desert/decals/desert_sand_decal_02.json"
+    },
+    {
+      "layer": 16,
+      "bias": 100,
+      "noise_range": [
+        0.75,
+        0.8
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/desert/decals/desert_sand_decal_01.json"
+    },
+    {
+      "layer": 17,
+      "bias": 100,
+      "noise_range": [
+        0.8,
+        0.85
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/sand/decals/sand_decal_shore_01.json"
+    },
+    {
+      "layer": 18,
+      "bias": 100,
+      "noise_range": [
+        0.85,
+        0.9
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/sand/decals/sand_decal_01.json"
+    },
+    {
+      "layer": 19,
+      "bias": 100,
+      "noise_range": [
+        0.9,
+        0.95
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/lava/decals/lava_decal_03.json"
+    },
+    {
+      "layer": 20,
+      "bias": 100,
+      "noise_range": [
+        0.95,
+        1
+      ],
+      "pole_orient": true,
+      "pos_range": [
+        0,
+        0
+      ],
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "scale": [
+        30,
+        30,
+        1
+      ],
+      "scale_variation": 0,
+      "count": 1,
+      "material_spec": "/pa/terrain/ice/decals/ice_decal_01.json"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "author": "wondible",
+  "build": "74525",
+  "category": ["biome", "modding"],
+  "context": "client",
+  "date": "2014/11/16",
+  "description": "Tool for biome modders to edit the files and look at noise patterns",
+  "display_name": "Noise Visualizer Biome",
+  "forum": null,
+  "identifier": "com.wondible.pa.noise_visualizer_biome.client",
+  "scenes": {
+    "system_editor": [
+      "coui://ui/mods/noise_visualizer_biome/system_editor.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "0.1.0"
+}

@@ -1,0 +1,66 @@
+{
+  "decals": [
+    "/pa/terrain/desert/decals/desert_cracks_decal_01.json",  //pink
+    "/pa/terrain/desert/decals/desert_cracks_decal_02.json", // pink blotches
+    "/pa/terrain/desert/decals/desert_rock_decal_01.json", // sandy spots
+    "/pa/terrain/desert/decals/desert_rock_decal_02.json", // sandy dense spots
+    "/pa/terrain/desert/decals/desert_rock_decal_03.json", // mottled brown rocky texture
+    "/pa/terrain/desert/decals/desert_sand_decal_01.json", // solid flesh
+    "/pa/terrain/desert/decals/desert_sand_decal_02.json", // slightly smaller mottled flesh
+    "/pa/terrain/desert/decals/desert_sand_decal_03.json", // above, faint
+    "/pa/terrain/grass/decals/grass_decal_01.json", // solid dark green
+    "/pa/terrain/grass/decals/grass_decal_02.json", // above, faint
+    "/pa/terrain/grass/decals/grass_decal_03.json", // solid richer green 
+    "/pa/terrain/grass/decals/grass_decal_water_01.json", // dark cyan
+    "/pa/terrain/grass/decals/grass_decal_water_02.json", // deep blue
+    "/pa/terrain/ice/decals/ice_decal_01.json", // bright white
+    "/pa/terrain/ice/decals/ice_decal_02.json", // above, faint
+    "/pa/terrain/ice/decals/ice_decal_water_01.json", // baby blue with faded edges
+    "/pa/terrain/ice/decals/ice_decal_water_02.json", // blue with faded edges
+    "/pa/terrain/ice/decals/ice_decal_water_03.json", // dark blue with faded edges
+    "/pa/terrain/jungle/decals/jungle_decal_01.json", // mottled greens
+    "/pa/terrain/jungle/decals/jungle_decal_02.json", // above, faint
+    "/pa/terrain/jungle/decals/jungle_decal_03.json", // dark fuzzy mottled greens
+    "/pa/terrain/jungle/decals/jungle_rocks_decal_01.json", // scattered small dark spots
+    "/pa/terrain/lava/decals/lava_decal_01.json", // 50% trans dark gray
+    "/pa/terrain/lava/decals/lava_decal_02.json", // large black spot
+    "/pa/terrain/lava/decals/lava_decal_03.json", // bright orange splotch with faint aura
+    "/pa/terrain/lava/decals/lava_decal_04.json", // faint orange
+    "/pa/terrain/lava/decals/lava_decal_05.json", // dark grey
+    "/pa/terrain/lava/decals/lava_decal_06.json", // few red spots
+    "/pa/terrain/lava/decals/lava_decal_07.json", // faint mottled light grey 
+    "/pa/terrain/lava/decals/lava_decal_cracks.json", // completely transparent?
+    "/pa/terrain/lava/decals/lava_decal_cracks_02.json", // thin orang cracks
+    "/pa/terrain/lava/decals/lava_decal_cracks_03.json", // completely transparent?
+    "/pa/terrain/lava/decals/lava_decal_cracks_04.json", // black hooky splotches
+    "/pa/terrain/lava/decals/lava_decal_cracks_05.json",  // completely transparent?
+    "/pa/terrain/lava/decals/lava_decal_cracks_06.json", // completey transparent?
+    "/pa/terrain/lava/decals/lava_decal_crater.json", // medium black spots
+    "/pa/terrain/lava/decals/lava_decal_red.json", // faint dark red
+    "/pa/terrain/lava/decals/lava_decal_rocks.json", // cluster of black spots
+    "/pa/terrain/lava/decals/lava_decal_yellow.json", // faint sandy
+    "/pa/terrain/lava/decals/lava_decal_yellowSpots.json", // bright yellow spots
+    "/pa/terrain/metal/decals/metal_decal_01.json", // square grey base texture
+    "/pa/terrain/metal/decals/metal_decal_02.json", // square dark grey with hole
+    "/pa/terrain/metal/decals/metal_decal_03.json", // pair of dark grey rects
+    "/pa/terrain/metal/decals/metal_decal_04.json",  // pair of medium grey rects
+    "/pa/terrain/metal/decals/metal_decal_05.json", // pair of mediujm grey rects
+    "/pa/terrain/metal/decals/metal_decal_06.json", // detailed; black lines, blue panel
+    "/pa/terrain/metal/decals/metal_decal_07.json", // faint white stripe with solid red corner
+    "/pa/terrain/moon/decals/moon_decal_01.json", // flat medium grey
+    "/pa/terrain/moon/decals/moon_decal_02.json", // flat darker grey
+    "/pa/terrain/moon/decals/moon_decal_03.json", // sparse grey spots
+    "/pa/terrain/moon/decals/moon_decal_04.json", // single light grey crater
+    "/pa/terrain/moon/decals/moon_decal_06.json", // dark grey swirl
+    "/pa/terrain/mountain/decals/mountain_decal_01.json", // dark grey mottled
+    "/pa/terrain/mountain/decals/mountain_decal_02.json", // faint mediuim grey
+    "/pa/terrain/mountain/decals/mountain_decal_03.json", // dark grey/black
+    "/pa/terrain/sand/decals/sand_decal_01.json", // bright sand
+    "/pa/terrain/sand/decals/sand_decal_02.json", // faint sand
+    "/pa/terrain/sand/decals/sand_decal_shore_01.json", // medium sand
+    "/pa/terrain/sand/decals/sand_decal_water_01.json", // faint green
+    "/pa/terrain/sand/decals/sand_decal_water_02.json", // bluish-green
+    "/pa/terrain/sand/decals/sand_decal_water_03.json" // dark greenish-blue
+  ]
+}
+
