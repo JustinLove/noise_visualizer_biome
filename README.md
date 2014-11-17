@@ -8,12 +8,17 @@ Recommended mod: [System Editor Reset](https://forums.uberent.com/threads/rel-sy
 
 ## Observations
 
+### Shared parameters
+
+Appear to work on very noise type.
+
+- `zoom`: large numbers produce extremes, small numbers keep it around 0.5
+
 ### type: `simplex`
 
 Smooth noise across planet
 
 - `scale`: large numbers produce fine detail, small numbers make large flat fields
-- `zoom`: large numbers produce extremes, small numbers keep it around 0.5
 
 These parameters only appear on an unused layer in the mountain biome:
 
@@ -23,9 +28,9 @@ These parameters only appear on an unused layer in the mountain biome:
 
 ### type: `grid`
 
-Same quadrilateral symmetric noise on each face of cube-mapped sphere.  Results similar but not identical across seeds.
+Same quadrilateral symmetric noise on each face of cube-mapped sphere.  Results similar but not identical across seeds.  Apply a large zoom factor to get a crude checkerboard pattern 
 
-- `zoom`: Apply a large zoom factor to get a crude checkerboard pattern 
+- `grid_size`: large values make larger squares; default seems to be around 200 (meters?)
 
 ### type: `constant`
 
@@ -33,14 +38,22 @@ Same quadrilateral symmetric noise on each face of cube-mapped sphere.  Results 
 
 ### type: `ring`
 
-Produces a grid effect.  One dimension can be controlled, which can stretch the grid to produce stripes.  Poles often degenerate to noise.
+Produces a pole-pole grid effect, which can be turned into strips, rings, or swirls using the parameters
 
 - `ring_latitude_period`: Meters period from period from 0.5-0.5. Larger values stretch the grid elements towards the poles. If undefined, produces a grid effect (default ~200?)  0 produces a strong oscillating stripe effect.
-- `ring_longitude_period`: appears in stock biomes but I can't determine effect; seems locked around 200
+- `ring_longitude_peroid`[sic]: correctly spelled in stock biomes; game uses typo.  Large values stretch elements around the equator.
 
 ### type: `metal`
 
 Appears only in the base biome and is likely derelict.  The example parameters `ring_even_period` and `ring_even_twist` have no effect.  Produces evenly distributed noise at each sample - so it hits the extreme high and low values more often than simplex without zoom.  It does respond to zoom.
+
+### type: `ring_even`
+
+With default values, results similar to metal, possibly related as the use above suggests.  Gets weird near poles; appears to be processed individually for each cube face.
+
+- `grid_size`: large values make larger squares; default seems to be around 20 (meters?)
+- `ring_even_twist`: does something like you'd expect, but I haven't formed a mental model of just what that is.
+- `ring_even_period`: no effect that I've observed
 
 ## Extras
 
