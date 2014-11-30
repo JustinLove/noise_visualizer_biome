@@ -144,7 +144,47 @@ module.exports = function(grunt) {
           })
           return spec
         }
-      }
+      },
+      analyze: {
+        src: [
+          'pa/terrain/*/*.json'
+        ],
+        cwd: media,
+        dest: 'analysis.json',
+        process: function() {
+          var analysis = {}
+          var biome
+          var previous
+          var layerMap = []
+          var key
+          for (var i = 0;i < arguments.length;i++) {
+            biome = arguments[i]
+            if (!biome.layers) continue
+            layerMap = []
+            biome.layers.forEach(function(layer) {
+              if (layer.inherit_noise) layer = previous
+              key = JSON.stringify(layer.noise)
+              analysis[key] = analysis[key] || {noise: layer.noise, contains: []}
+              layerMap.push(analysis[key])
+              previous = layer
+            })
+            biome.brushes && biome.brushes.forEach(function(brush) {
+              if (!brush.noise_range) return
+              layerMap[brush.layer].contains.push(brush)
+            })
+            biome.features && biome.features.forEach(function(feature) {
+              if (!feature.noise_range) return
+              layerMap[feature.layer].contains.push(feature)
+            })
+            biome.decals && biome.decals.forEach(function(decal) {
+              if (!decal.noise_range) return
+              layerMap[decal.layer].contains.push(decal)
+            })
+          }
+          console.log(analysis)
+          return analysis
+        }
+      },
     }
   });
 
@@ -163,7 +203,7 @@ module.exports = function(grunt) {
     }
   })
 
-  grunt.registerTask('client', ['proc', 'jsonlint']);
+  grunt.registerTask('client', ['proc:biome_type', 'proc:biome', 'jsonlint']);
   grunt.registerTask('server', ['copy:mod', 'copy:modinfo']);
 
   // Default task(s).
