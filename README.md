@@ -40,8 +40,9 @@ Same quadrilateral symmetric noise on each face of cube-mapped sphere.  Results 
 
 Produces a pole-pole grid effect, which can be turned into strips, rings, or swirls using the parameters
 
-- `ring_latitude_period`: Meters period from period from 0.5-0.5. Larger values stretch the grid elements towards the poles. If undefined, produces a grid effect (default ~200?)  0 produces a strong oscillating stripe effect.
+- `ring_latitude_period`: Meters period from period from 0.5-0.5. Larger values stretch the grid elements towards the poles. If undefined, produces a grid effect (default ~250?)  0 produces a strong oscillating stripe effect.
 - `ring_longitude_peroid`[sic]: correctly spelled in stock biomes; game uses typo.  Large values stretch elements around the equator.
+- `ring_twist`:  twists longitude lines, default is around 1. Units seem to be longitude-periods
 
 ### type: `metal`
 
